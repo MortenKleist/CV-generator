@@ -1,3 +1,4 @@
+
 [build-system]
 requires = ["uv_build>=0.9.22,<0.10.0"]
 build-backend = "uv_build"
@@ -7,13 +8,12 @@ name = "cv_generator"
 version = "0.0.1"
 description = "Web application to generate CV"
 authors = [
-  { name = "Morten", email = "your@email.com" },
+    { name = "Morten", email = "your@email.com" },
 ]
-
 keywords = ["machine learning", "MLOps"]
 classifiers = [
-  "Development Status :: 3 - Alpha",
-  "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
 ]
 readme = "README.md"
 requires-python = ">=3.12"
@@ -36,6 +36,12 @@ dev = [
     "mkdocstrings-python==2.0.1",
 ]
 
+[tool.uv]
+package = true
+
+[tool.uv.build-backend]
+module-root = "app"
+module-name = "cv_generator"
 
 [tool.uv.sources]
 torch = [
