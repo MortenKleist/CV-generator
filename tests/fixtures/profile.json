@@ -1,0 +1,58 @@
+{
+  "name": "Bobby",
+  "education": [
+    {
+        "id": "8f1c3a2e-0000-4000-8000-000000000001",
+        "institution": "DTU",
+        "degree": "Bsc Electrical Engineering",
+        "end_year": 2025
+    },
+    {
+        "id": "8f1c3a2e-0000-4000-8000-000000000002",
+        "institution": "DTU",
+        "degree": "Msc Human Centered AI",
+        "end_year": null
+    }
+  ],
+  "employment": [
+    {
+        "id": "8f1c3a3e-0000-4000-8000-000000000001",
+        "employer": "Job1",
+        "position": "Engineer1"
+    },
+    {
+        "id": "8f1c3a3e-0000-4000-8000-000000000002",
+        "employer": "Job2",
+        "position": null
+    },
+    {
+        "id": "8f1c3a3e-0000-4000-8000-000000000003",
+        "employer": "Job3",
+        "position": null
+    }
+  ],
+  "publication": [
+    {
+        "id": "8f1c3a4e-0000-4000-8000-000000000001", 
+        "title": "Title1",
+        "authors": ["Author1", "Author2"],  
+        "venue": "Venue1"
+    },
+    {
+        "id": "8f1c3a4e-0000-4000-8000-000000000002", 
+        "title": "Title2",
+        "authors": ["Author1", "Author2"]  
+    },
+    {
+        "id": "8f1c3a4e-0000-4000-8000-000000000003", 
+        "title": "Title3",
+        "authors": ["Author1", "Author2"],
+        "venue": "Venue2" 
+    },
+    {
+        "id": "8f1c3a4e-0000-4000-8000-000000000004", 
+        "title": "Title4",
+        "authors": ["Albert Einstein", "Niels Bohr"]  
+    }
+  ] 
+}

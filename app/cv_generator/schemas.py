@@ -27,8 +27,8 @@ class Profile(BaseModel):
     name: str 
     nationality: list[str] = Field(default_factory=list)
     orcid: str | None = Field(default=None, pattern=r"^\d{4}-\d{4}-\d{4}-\d{3}[\dX]$")
-    occupations: list[str] = Field(default_factory=list)
-    fields_of_work: list[str] = Field(default_factory=list)
+    occupations: list[str] | None = Field(default_factory=list)
+    fields_of_work: list[str] | None = Field(default_factory=list)
     education: list[Education] = Field(default_factory=list)
     employment: list[Employment] = Field(default_factory=list)
     publication: list[Publication] = Field(default_factory=list)
